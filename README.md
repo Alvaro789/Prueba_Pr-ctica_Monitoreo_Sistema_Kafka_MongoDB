@@ -118,6 +118,7 @@ Incluye:
 ```
 kafka-python
 pymongo
+pytest
 ```
 
 Instala con:
