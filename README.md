@@ -85,6 +85,32 @@ python productor_metrics_iabd10.py
 python consumidor_metrics_iabd10.py
 ```
 
+---
+
+## ✅ Salida esperada
+
+**Productor:**
+```
+Conectado a Kafka en 172.18.48.1:29092
+2025-05-05 12:00:00: Generando y enviando métricas...
+Enviada métrica de web01 a Kafka.
+...
+Esperando 10 segundos antes del siguiente envío...
+```
+
+**Consumidor:**
+```
+Conectando a MongoDB Atlas...
+Conexión a MongoDB Atlas exitosa.
+Suscrito al topic: system-metrics-topic-iabd10
+Mensaje recibido de web02. Total acumulado: 1
+...
+20 mensajes acumulados. Calculando KPIs...
+KPIs insertados correctamente en MongoDB.
+```
+
+---
+
 ## 📌 Autor
 
 Álvaro (IABD10)  
