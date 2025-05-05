@@ -11,6 +11,7 @@ Prueba_Practica_Monitoreo_Sistema_Kafka_MongoDB/
 ├── productor_metrics_iabd10.py        # Generador y emisor de métricas simuladas a Kafka
 ├── consumidor_metrics_iabd10.py       # Consumidor de Kafka que inserta métricas crudas y KPIs en MongoDB
 ├── docker-compose.yml                 # (Opcional) Servicios Kafka/Zookeeper si se usan en local
+├── requirements.txt                   # Dependencias del proyecto
 └── README.md                          # Documentación del proyecto
 ```
 
@@ -109,6 +110,21 @@ KPIs insertados correctamente en MongoDB.
 ```
 
 ---
+
+## 📦 requirements.txt
+
+Incluye:
+
+```
+kafka-python
+pymongo
+```
+
+Instala con:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## 📌 Autor
 
